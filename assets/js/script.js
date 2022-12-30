@@ -70,11 +70,11 @@ function togglePlayer(){
 function observerGame(){
     if(checkWinner('x')) {
         playerTurn = '';
-        warning = 'Player "x" winner';
+        warning = 'Player "x" won';
         playing = false;
     } else if(checkWinner('o')) {
         playerTurn = '';
-        warning = 'Player "o" winner';
+        warning = 'Player "o" won';
         playing = false;
     } else if(isFull()) {
         warning = 'The game gave tie';
